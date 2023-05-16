@@ -1,3 +1,9 @@
+# Pi Genius
+
+A website to help digital makers learn how to use Raspberry Pi microcomputers in fun physical making projects, built using React. 
+
+...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
