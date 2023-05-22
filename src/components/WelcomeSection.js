@@ -3,11 +3,12 @@ import React from 'react';
 function WelcomeSection() {
     return (
         <section id="welcome" className="welcome-section">
-            <h2>Welcome to Pi Genius!</h2>
-            <p>
-                We're here to help you unleash your potential with digital making 
-                and tech using the Raspberry Pi microcomputers.
-            </p>
+            <div class="container">
+                <h2>Welcome, you <span className="pi-genius">Pi Genius!</span>, you!</h2>
+                <p>
+                Welcome to <span className="pi-genius">Pi Genius!</span>, your one stop shop for all things digital making! 
+                </p>
+            </div>
         </section>
     );
 }

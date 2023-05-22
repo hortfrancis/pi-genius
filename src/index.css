@@ -21,11 +21,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+span.pi-genius {
+  color: var(--raspberry);
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: italic;
+  /* font-weight: 900; */
+}
+
 
 /* Internal spacing */
 
-#logo {
-  margin: 1rem;
+#logo, div.container {
+  margin: 1rem 2rem;
 }
 
 
