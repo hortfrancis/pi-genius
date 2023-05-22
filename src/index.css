@@ -1,13 +1,53 @@
+:root {
+  --raspberry: #E60063;
+  --mid-blue: #274C77;
+  --magnolia: #EDE6F2;
+  --silver: #BFBFBF;
+  --harvest-gold: #E6A100;
+  --dark-blue: #0F1E2E;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-blue);
+  background-color: var(--magnolia);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: none;
 }
+
+a:hover {
+  color: var(--mid-blue);
+}
+
+.site-header, .site-footer {
+  background-color: var(--mid-blue);
+  color: var(--magnolia);
+  padding: 1em;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.call-to-action {
+  background-color: var(--raspberry);
+  color: var(--magnolia);
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.testimonials-section {
+  background-color: var(--silver);
+  padding: 1em;
+}
+
