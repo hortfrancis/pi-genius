@@ -4,7 +4,7 @@ import NavLinks from './NavLinks';
 
 function NavBar() {
     return (
-        <nav className="navbar">
+        <nav id="navbar">
             <Logo />
             <NavLinks />
         </nav>

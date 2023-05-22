@@ -1,3 +1,5 @@
+/* Colour variables */
+
 :root {
   --raspberry: #E60063;
   --mid-blue: #274C77;
@@ -7,6 +9,9 @@
   --dark-blue: #0F1E2E;
 }
 
+
+/* Global styles */
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -15,6 +20,63 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* Internal spacing */
+
+#logo {
+  margin: 1rem;
+}
+
+
+/* NavBar */ 
+
+#logo h1 {
+  font-size: 2rem
+  
+}
+
+#navbar h1 span.logo-pi {
+  color: var(--raspberry);
+}
+
+h1 span.logo-genius {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1 span.logo-exclamation-mark {
+  font-weight: 500;
+  font-style: italic;
+}
+
+ul.nav-links {
+  background-color: var(--harvest-gold);
+
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+ul.nav-links li {
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+ul.nav-links li a {
+  padding: 1em;
+}
+
+ul.nav-links li a:hover, ul.nav-links li a:active, ul.nav-links li a:focus {
+  background-color: var(--dark-blue);
+  color: var(--harvest-gold)
+}
+
+/* --- */
+
 
 a {
   color: inherit;
